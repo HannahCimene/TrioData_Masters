@@ -31,7 +31,7 @@ As the librarian at company name I make sure all the documents are filled in cor
 ### Hannah - *The Psychologist*
 <img src="Files/img/Foto_Hannah.JPG" align="left"
      alt="Hannah" height="150" style="margin-right: 1.5rem">
-As a Psychologist in our IT firm, my role is pivotal in fostering a psychologically healthy and harmonious work environment. I leverage your expertise in psychology to support our employees, teams, and clients in developing positive relationships, effective communication, and mental well-being. Through counseling, conflict resolution, training, and research, I contribute to the overall success of our organization by enhancing interpersonal dynamics and promoting a culture of collaboration, innovation, and employee satisfaction. <br/><br/><br/>
+As a Psychologist in our IT firm, my role is pivotal in fostering a psychologically healthy and harmonious work environment. I leverage my expertise in psychology to support our employees, teams, and clients in developing positive relationships, effective communication, and mental well-being. Through counseling, conflict resolution, training, and research, I contribute to the overall success of our organization by enhancing interpersonal dynamics and promoting a culture of collaboration, innovation, and employee satisfaction. <br/><br/><br/>
 
 ### Jeffrey - *The Computer Systems Administrator*
 <img src="Files/img/foto_jeffrey.png" align="left"
