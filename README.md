@@ -4,7 +4,7 @@
 
 At Triodata Masters, we are the architects of data excellence. With a combined passion for data management and a commitment to unlocking its full potential, our founders Emalisa, Hannah, and Liesa have come together to build a company that stands as a beacon of innovation and precision in the world of data.
 
-<img src="Files/TrioDataMastersLogo.png" align="right"
+<img src="Files/img/TrioDataMastersLogo.png" align="right"
      alt="TrioData Masters logo by Looka" width="200" height="200" style="margin-left: 1.5rem">
 
 Triodata Masters is not just a data management company; we are your trusted partners in harnessing the power of your data to drive informed decisions, achieve operational efficiency, and propel your organization into the future. Our mission is to empower businesses of all sizes and industries with top-tier data management solutions that fuel growth, innovation, and success.
@@ -29,7 +29,7 @@ As the Data Management Team Coach at TrioData Masters, I play a crucial role in 
 As the librarian at company name I make sure all the documents are filled in correctly and uploaded on time. I make sure that all the important details are written down and taken into account. During our meetings with our clients I miss no details and make sure everything is according to our clients wish.  <br/><br/><br/><br/>
 
 ### Hannah - *The Psychologist*
-<img src="Files/img/Foto_Hannah.JPG" align="left"
+<img src="Files/img/foto_hannah.jpg" align="left"
      alt="Hannah" height="150" style="margin-right: 1.5rem">
 As a Psychologist in our IT firm, my role is pivotal in fostering a psychologically healthy and harmonious work environment. I leverage your expertise in psychology to support our employees, teams, and clients in developing positive relationships, effective communication, and mental well-being. Through counseling, conflict resolution, training, and research, I contribute to the overall success of our organization by enhancing interpersonal dynamics and promoting a culture of collaboration, innovation, and employee satisfaction. <br/><br/><br/>
 
