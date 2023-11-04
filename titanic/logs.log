@@ -3598,3 +3598,6 @@ AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
 2023-11-04 16:20:18,352:INFO:Scoring test/hold-out set
 2023-11-04 16:20:18,428:INFO:Visual Rendered Successfully
 2023-11-04 16:20:18,528:INFO:plot_model() successfully completed......................................
+2023-11-04 16:25:01,746:INFO:Initializing plot_model()
+2023-11-04 16:25:01,746:INFO:plot_model(plot=rfe, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=GaussianNB(priors=None, var_smoothing=1e-09), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, system=True)
+2023-11-04 16:25:01,746:INFO:Checking exceptions
