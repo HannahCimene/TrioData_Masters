@@ -3271,3 +3271,330 @@ AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
 2023-11-04 16:18:00,848:INFO:Light Gradient Boosting Machine Imported successfully
 2023-11-04 16:18:00,852:INFO:Starting cross validation
 2023-11-04 16:18:00,853:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-11-04 16:18:01,613:INFO:Calculating mean and std
+2023-11-04 16:18:01,615:INFO:Creating metrics dataframe
+2023-11-04 16:18:01,620:INFO:Uploading results into container
+2023-11-04 16:18:01,621:INFO:Uploading model into container now
+2023-11-04 16:18:01,622:INFO:_master_model_container: 13
+2023-11-04 16:18:01,622:INFO:_display_container: 2
+2023-11-04 16:18:01,622:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2023-11-04 16:18:01,622:INFO:create_model() successfully completed......................................
+2023-11-04 16:18:01,761:INFO:SubProcess create_model() end ==================================
+2023-11-04 16:18:01,761:INFO:Creating metrics dataframe
+2023-11-04 16:18:01,770:INFO:Initializing Dummy Classifier
+2023-11-04 16:18:01,770:INFO:Total runtime is 0.07842379411061604 minutes
+2023-11-04 16:18:01,773:INFO:SubProcess create_model() called ==================================
+2023-11-04 16:18:01,773:INFO:Initializing create_model()
+2023-11-04 16:18:01,773:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002C855B19BD0>, model_only=True, return_train_score=False, kwargs={})
+2023-11-04 16:18:01,773:INFO:Checking exceptions
+2023-11-04 16:18:01,774:INFO:Importing libraries
+2023-11-04 16:18:01,774:INFO:Copying training dataset
+2023-11-04 16:18:01,778:INFO:Defining folds
+2023-11-04 16:18:01,778:INFO:Declaring metric variables
+2023-11-04 16:18:01,781:INFO:Importing untrained model
+2023-11-04 16:18:01,784:INFO:Dummy Classifier Imported successfully
+2023-11-04 16:18:01,789:INFO:Starting cross validation
+2023-11-04 16:18:01,790:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-11-04 16:18:01,818:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,818:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,820:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,820:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,820:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,820:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,823:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,824:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,824:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,826:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-11-04 16:18:01,830:INFO:Calculating mean and std
+2023-11-04 16:18:01,831:INFO:Creating metrics dataframe
+2023-11-04 16:18:01,833:INFO:Uploading results into container
+2023-11-04 16:18:01,834:INFO:Uploading model into container now
+2023-11-04 16:18:01,834:INFO:_master_model_container: 14
+2023-11-04 16:18:01,834:INFO:_display_container: 2
+2023-11-04 16:18:01,834:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2023-11-04 16:18:01,834:INFO:create_model() successfully completed......................................
+2023-11-04 16:18:01,936:INFO:SubProcess create_model() end ==================================
+2023-11-04 16:18:01,936:INFO:Creating metrics dataframe
+2023-11-04 16:18:01,955:INFO:Initializing create_model()
+2023-11-04 16:18:01,955:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-11-04 16:18:01,956:INFO:Checking exceptions
+2023-11-04 16:18:01,958:INFO:Importing libraries
+2023-11-04 16:18:01,958:INFO:Copying training dataset
+2023-11-04 16:18:01,961:INFO:Defining folds
+2023-11-04 16:18:01,961:INFO:Declaring metric variables
+2023-11-04 16:18:01,961:INFO:Importing untrained model
+2023-11-04 16:18:01,961:INFO:Declaring custom model
+2023-11-04 16:18:01,962:INFO:Naive Bayes Imported successfully
+2023-11-04 16:18:01,963:INFO:Cross validation set to False
+2023-11-04 16:18:01,963:INFO:Fitting Model
+2023-11-04 16:18:01,976:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-11-04 16:18:01,976:INFO:create_model() successfully completed......................................
+2023-11-04 16:18:02,114:INFO:_master_model_container: 14
+2023-11-04 16:18:02,114:INFO:_display_container: 2
+2023-11-04 16:18:02,114:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-11-04 16:18:02,115:INFO:compare_models() successfully completed......................................
+2023-11-04 16:18:02,142:INFO:Initializing evaluate_model()
+2023-11-04 16:18:02,142:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2023-11-04 16:18:02,158:INFO:Initializing plot_model()
+2023-11-04 16:18:02,158:INFO:plot_model(plot=pipeline, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=GaussianNB(priors=None, var_smoothing=1e-09), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, system=True)
+2023-11-04 16:18:02,158:INFO:Checking exceptions
+2023-11-04 16:18:02,159:INFO:Preloading libraries
+2023-11-04 16:18:02,159:INFO:Copying training dataset
+2023-11-04 16:18:02,160:INFO:Plot type: pipeline
+2023-11-04 16:18:02,271:INFO:Visual Rendered Successfully
+2023-11-04 16:18:02,380:INFO:plot_model() successfully completed......................................
+2023-11-04 16:18:02,383:INFO:Initializing predict_model()
+2023-11-04 16:18:02,384:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002C855B27F40>)
+2023-11-04 16:18:02,384:INFO:Checking exceptions
+2023-11-04 16:18:02,384:INFO:Preloading libraries
+2023-11-04 16:18:02,385:INFO:Set up data.
+2023-11-04 16:18:02,389:INFO:Set up index.
+2023-11-04 16:18:02,525:INFO:Initializing save_model()
+2023-11-04 16:18:02,525:INFO:save_model(model=GaussianNB(priors=None, var_smoothing=1e-09), model_name=my_best_pipeline_survived, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\HANNAH~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['sex', 'alone',
+                                             'Siblings/spouses aboard',
+                                             'Parents/children aboard',
+                                             'Passenger fare'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              st...
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-11-04 16:18:02,525:INFO:Adding model into prep_pipe
+2023-11-04 16:18:02,528:INFO:my_best_pipeline_survived.pkl saved in current working directory
+2023-11-04 16:18:02,531:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['sex', 'alone',
+                                             'Siblings/spouses aboard',
+                                             'Parents/children aboard',
+                                             'Passenger fare'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('cat...
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('trained_model',
+                 GaussianNB(priors=None, var_smoothing=1e-09))],
+         verbose=False)
+2023-11-04 16:18:02,532:INFO:save_model() successfully completed......................................
+2023-11-04 16:19:18,926:INFO:Initializing tune_model()
+2023-11-04 16:19:18,926:INFO:tune_model(estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>)
+2023-11-04 16:19:18,926:INFO:Checking exceptions
+2023-11-04 16:19:18,946:INFO:Copying training dataset
+2023-11-04 16:19:18,949:INFO:Checking base model
+2023-11-04 16:19:18,949:INFO:Base model : Naive Bayes
+2023-11-04 16:19:18,954:INFO:Declaring metric variables
+2023-11-04 16:19:18,958:INFO:Defining Hyperparameters
+2023-11-04 16:19:19,107:INFO:Tuning with n_jobs=-1
+2023-11-04 16:19:19,107:INFO:Initializing RandomizedSearchCV
+2023-11-04 16:19:19,400:INFO:best_params: {'actual_estimator__var_smoothing': 2e-09}
+2023-11-04 16:19:19,400:INFO:Hyperparameter search completed
+2023-11-04 16:19:19,400:INFO:SubProcess create_model() called ==================================
+2023-11-04 16:19:19,401:INFO:Initializing create_model()
+2023-11-04 16:19:19,401:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000002C855B188B0>, model_only=True, return_train_score=False, kwargs={'var_smoothing': 2e-09})
+2023-11-04 16:19:19,401:INFO:Checking exceptions
+2023-11-04 16:19:19,401:INFO:Importing libraries
+2023-11-04 16:19:19,401:INFO:Copying training dataset
+2023-11-04 16:19:19,404:INFO:Defining folds
+2023-11-04 16:19:19,404:INFO:Declaring metric variables
+2023-11-04 16:19:19,407:INFO:Importing untrained model
+2023-11-04 16:19:19,407:INFO:Declaring custom model
+2023-11-04 16:19:19,410:INFO:Naive Bayes Imported successfully
+2023-11-04 16:19:19,415:INFO:Starting cross validation
+2023-11-04 16:19:19,416:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-11-04 16:19:19,463:INFO:Calculating mean and std
+2023-11-04 16:19:19,463:INFO:Creating metrics dataframe
+2023-11-04 16:19:19,467:INFO:Finalizing model
+2023-11-04 16:19:19,478:INFO:Uploading results into container
+2023-11-04 16:19:19,479:INFO:Uploading model into container now
+2023-11-04 16:19:19,479:INFO:_master_model_container: 15
+2023-11-04 16:19:19,479:INFO:_display_container: 4
+2023-11-04 16:19:19,480:INFO:GaussianNB(priors=None, var_smoothing=2e-09)
+2023-11-04 16:19:19,480:INFO:create_model() successfully completed......................................
+2023-11-04 16:19:19,588:INFO:SubProcess create_model() end ==================================
+2023-11-04 16:19:19,588:INFO:choose_better activated
+2023-11-04 16:19:19,591:INFO:SubProcess create_model() called ==================================
+2023-11-04 16:19:19,592:INFO:Initializing create_model()
+2023-11-04 16:19:19,592:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-11-04 16:19:19,592:INFO:Checking exceptions
+2023-11-04 16:19:19,593:INFO:Importing libraries
+2023-11-04 16:19:19,593:INFO:Copying training dataset
+2023-11-04 16:19:19,595:INFO:Defining folds
+2023-11-04 16:19:19,595:INFO:Declaring metric variables
+2023-11-04 16:19:19,596:INFO:Importing untrained model
+2023-11-04 16:19:19,596:INFO:Declaring custom model
+2023-11-04 16:19:19,596:INFO:Naive Bayes Imported successfully
+2023-11-04 16:19:19,596:INFO:Starting cross validation
+2023-11-04 16:19:19,597:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-11-04 16:19:19,641:INFO:Calculating mean and std
+2023-11-04 16:19:19,642:INFO:Creating metrics dataframe
+2023-11-04 16:19:19,643:INFO:Finalizing model
+2023-11-04 16:19:19,650:INFO:Uploading results into container
+2023-11-04 16:19:19,650:INFO:Uploading model into container now
+2023-11-04 16:19:19,651:INFO:_master_model_container: 16
+2023-11-04 16:19:19,651:INFO:_display_container: 5
+2023-11-04 16:19:19,651:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-11-04 16:19:19,651:INFO:create_model() successfully completed......................................
+2023-11-04 16:19:19,767:INFO:SubProcess create_model() end ==================================
+2023-11-04 16:19:19,768:INFO:GaussianNB(priors=None, var_smoothing=1e-09) result for Accuracy is 0.7871
+2023-11-04 16:19:19,768:INFO:GaussianNB(priors=None, var_smoothing=2e-09) result for Accuracy is 0.7871
+2023-11-04 16:19:19,768:INFO:GaussianNB(priors=None, var_smoothing=1e-09) is best model
+2023-11-04 16:19:19,768:INFO:choose_better completed
+2023-11-04 16:19:19,769:INFO:Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+2023-11-04 16:19:19,778:INFO:_master_model_container: 16
+2023-11-04 16:19:19,778:INFO:_display_container: 4
+2023-11-04 16:19:19,778:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-11-04 16:19:19,778:INFO:tune_model() successfully completed......................................
+2023-11-04 16:19:19,890:INFO:Initializing evaluate_model()
+2023-11-04 16:19:19,890:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2023-11-04 16:19:19,902:INFO:Initializing plot_model()
+2023-11-04 16:19:19,902:INFO:plot_model(plot=pipeline, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=GaussianNB(priors=None, var_smoothing=1e-09), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, system=True)
+2023-11-04 16:19:19,902:INFO:Checking exceptions
+2023-11-04 16:19:19,904:INFO:Preloading libraries
+2023-11-04 16:19:19,904:INFO:Copying training dataset
+2023-11-04 16:19:19,904:INFO:Plot type: pipeline
+2023-11-04 16:19:19,977:INFO:Visual Rendered Successfully
+2023-11-04 16:19:20,084:INFO:plot_model() successfully completed......................................
+2023-11-04 16:19:20,088:INFO:Initializing predict_model()
+2023-11-04 16:19:20,089:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, estimator=GaussianNB(priors=None, var_smoothing=1e-09), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002C8552C1FC0>)
+2023-11-04 16:19:20,089:INFO:Checking exceptions
+2023-11-04 16:19:20,089:INFO:Preloading libraries
+2023-11-04 16:19:20,091:INFO:Set up data.
+2023-11-04 16:19:20,094:INFO:Set up index.
+2023-11-04 16:19:20,232:INFO:Initializing save_model()
+2023-11-04 16:19:20,232:INFO:save_model(model=GaussianNB(priors=None, var_smoothing=1e-09), model_name=my_best_pipeline_survived, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\HANNAH~1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['sex', 'alone',
+                                             'Siblings/spouses aboard',
+                                             'Parents/children aboard',
+                                             'Passenger fare'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              st...
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-11-04 16:19:20,233:INFO:Adding model into prep_pipe
+2023-11-04 16:19:20,235:INFO:my_best_pipeline_survived.pkl saved in current working directory
+2023-11-04 16:19:20,240:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['sex', 'alone',
+                                             'Siblings/spouses aboard',
+                                             'Parents/children aboard',
+                                             'Passenger fare'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('cat...
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+'))),
+                ('trained_model',
+                 GaussianNB(priors=None, var_smoothing=1e-09))],
+         verbose=False)
+2023-11-04 16:19:20,240:INFO:save_model() successfully completed......................................
+2023-11-04 16:20:15,685:INFO:Initializing plot_model()
+2023-11-04 16:20:15,685:INFO:plot_model(plot=auc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=GaussianNB(priors=None, var_smoothing=1e-09), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, system=True)
+2023-11-04 16:20:15,686:INFO:Checking exceptions
+2023-11-04 16:20:15,688:INFO:Preloading libraries
+2023-11-04 16:20:15,688:INFO:Copying training dataset
+2023-11-04 16:20:15,688:INFO:Plot type: auc
+2023-11-04 16:20:15,741:INFO:Fitting Model
+2023-11-04 16:20:15,741:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\base.py:439: UserWarning: X does not have valid feature names, but GaussianNB was fitted with feature names
+  warnings.warn(
+
+2023-11-04 16:20:15,741:INFO:Scoring test/hold-out set
+2023-11-04 16:20:15,873:INFO:Visual Rendered Successfully
+2023-11-04 16:20:16,013:INFO:plot_model() successfully completed......................................
+2023-11-04 16:20:18,295:INFO:Initializing plot_model()
+2023-11-04 16:20:18,295:INFO:plot_model(plot=confusion_matrix, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=GaussianNB(priors=None, var_smoothing=1e-09), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002C855830BE0>, system=True)
+2023-11-04 16:20:18,296:INFO:Checking exceptions
+2023-11-04 16:20:18,298:INFO:Preloading libraries
+2023-11-04 16:20:18,298:INFO:Copying training dataset
+2023-11-04 16:20:18,299:INFO:Plot type: confusion_matrix
+2023-11-04 16:20:18,352:INFO:Fitting Model
+2023-11-04 16:20:18,352:WARNING:C:\Users\Hannah Cimene\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sklearn\base.py:439: UserWarning: X does not have valid feature names, but GaussianNB was fitted with feature names
+  warnings.warn(
+
+2023-11-04 16:20:18,352:INFO:Scoring test/hold-out set
+2023-11-04 16:20:18,428:INFO:Visual Rendered Successfully
+2023-11-04 16:20:18,528:INFO:plot_model() successfully completed......................................
