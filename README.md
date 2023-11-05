@@ -1,6 +1,7 @@
+> **Note**
+> Our titanic and crops folders contain the final versions of our EDA notebooks, our individual model training notebooks, and our notebook with the final comparison of the models. If you want to learn more about how we got to these final notebooks, feel free to look around in the sandbox folders. 
+
 # TrioData_Masters
-
-
 
 At Triodata Masters, we are the architects of data excellence. With a combined passion for data management and a commitment to unlocking its full potential, our founders Emalisa, Hannah, and Liesa have come together to build a company that stands as a beacon of innovation and precision in the world of data.
 
@@ -36,4 +37,4 @@ As a Psychologist in our IT firm, my role is pivotal in fostering a psychologica
 ### Jeffrey - *The Computer Systems Administrator*
 <img src="img/foto_jeffrey.png" align="left"
      alt="Jeffrey" height="150" style="margin-right: 1.5rem">
-In my role as  Computer Systems Administrator at TrioData Masters, I ensure the smooth operation of our IT systems. I manage servers, networks, and data security. This includes backups, updates, and user support. I also plan for future growth, ensure compliance, and maintain documentation. My role is crucial in upholding data integrity and security in our data-focused environment.
+In my role as  Computer Systems Administrator at TrioData Masters, I ensure the smooth operation of our IT systems. I manage servers, networks, and data security. This includes backups, updates, and user support. I also plan for future growth, ensure compliance, and maintain documentation. My role is crucial in upholding data integrity and security in our data-focused environment.   <br/><br/><br/><br/>
